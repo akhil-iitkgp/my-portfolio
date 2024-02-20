@@ -750,3 +750,8 @@ button:focus {
 .round-img:hover {
   transform: scale(1.1); /* This will zoom the image to 110% of its size on hover */
 }
+
+.read-more{
+  color:#12b0e8;
+  cursor: pointer;
+}
