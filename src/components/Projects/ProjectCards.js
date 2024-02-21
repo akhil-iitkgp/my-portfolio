@@ -14,9 +14,13 @@ function ProjectCards(props) {
 
   return (
     <Card className="project-card-view">
+      <div classname="newimage">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      </div>
       <Card.Body>
+        <div className="tour-name">
         <Card.Title>{props.title}</Card.Title>
+        </div>
         <Card.Text style={{ textAlign: "justify" }}>
         <div className="description">{info}
                 <span className="read-more"
