@@ -446,7 +446,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 100px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -505,9 +505,12 @@ button:focus {
 }
 
 .card-img-top {
-  padding: 20px !important;
-  opacity: 0.8 !important;
-  border-radius: 10px !important;
+  padding: 30px !important;
+  opacity: 1 !important;
+  border-radius: 20% !important;
+  width: 400 px;
+    aspect-ratio:1/1;
+    object-fit: cover;
 }
 
 .blog-img {
@@ -535,8 +538,17 @@ button:focus {
   color: white !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
-  padding-top: 10px !important;
+  padding-bottom: 10px !important;
 }
+
+.tour-name {
+  font-size: 1.5rem;
+  color: whitesmoke !important;
+  padding-top: 2px !important;
+  padding-bottom: 10px !important;
+  
+}
+
 
 /* --------- */
 /* About */
@@ -749,4 +761,15 @@ button:focus {
 
 .round-img:hover {
   transform: scale(1.1); /* This will zoom the image to 110% of its size on hover */
+}
+
+.read-more{
+  color:#12b0e8;
+  cursor: pointer;
+}
+
+.newimage{
+  width: 380 px;
+    aspect-ratio:1/1;
+    object-fit: cover;
 }
